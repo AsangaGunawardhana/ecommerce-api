@@ -94,11 +94,15 @@ npm install
 ```
 
 3. Create a `.env` file:
-   PORT=5001
-   MONGO_URI=mongodb://localhost:27017/ecommerce
-   JWT_SECRET=your_jwt_secret
-   STRIPE_SECRET_KEY=your_stripe_secret_key
-   STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
+
+```bash
+PORT=5001
+MONGO_URI=mongodb://localhost:27017/ecommerce
+JWT_SECRET=your_jwt_secret
+STRIPE_SECRET_KEY=your_stripe_secret_key
+STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
+```
+
 4. Start the server:
 
 ```bash

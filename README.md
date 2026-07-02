@@ -25,23 +25,23 @@ A fully functional e-commerce backend REST API built with Node.js, Express, and 
 
 ## Project Structure
 
-ecommerce-api/
-├── models/
-│ ├── User.js # User schema with role field (customer/admin)
-│ ├── Product.js # Product schema
-│ ├── Cart.js # Cart with product references
-│ └── Order.js # Order with price snapshot
-├── routes/
-│ ├── auth.js # Register and login
-│ ├── products.js # Product CRUD
-│ ├── cart.js # Cart management
-│ ├── orders.js # Order creation and history
-│ ├── payment.js # Stripe payment intent
-│ └── webhook.js # Stripe webhook handler
-├── middleware/
-│ ├── auth.js # JWT verification
-│ └── admin.js # Role-based access check
-└── server.js
+    ecommerce-api/
+    ├── models/
+    │   ├── User.js       # User schema with role field (customer/admin)
+    │   ├── Product.js    # Product schema
+    │   ├── Cart.js       # Cart with product references
+    │   └── Order.js      # Order with price snapshot
+    ├── routes/
+    │   ├── auth.js       # Register and login
+    │   ├── products.js   # Product CRUD
+    │   ├── cart.js       # Cart management
+    │   ├── orders.js     # Order creation and history
+    │   ├── payment.js    # Stripe payment intent
+    │   └── webhook.js    # Stripe webhook handler
+    ├── middleware/
+    │   ├── auth.js       # JWT verification
+    │   └── admin.js      # Role-based access check
+    └── server.js
 
 ## API Endpoints
 
